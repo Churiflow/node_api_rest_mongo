@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-crud-nodejs",
+  "version": "0.0.1",
+  "description": "Haremos un CRUD con NodeJs y MongoDB",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "nodem src/app.js"
+  },
+  "author": "Robert Lopez Ita",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "mongose": "^0.0.2-security"
+  }
+}
